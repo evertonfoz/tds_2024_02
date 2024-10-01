@@ -1,0 +1,15 @@
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/bin/Debug/net8.0/EstoqueResidencial.Persistencia.Colecao.deps.json
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/bin/Debug/net8.0/EstoqueResidencial.Persistencia.Colecao.dll
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/bin/Debug/net8.0/EstoqueResidencial.Persistencia.Colecao.pdb
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/bin/Debug/net8.0/EstoqueResidencial.Modelo.dll
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/bin/Debug/net8.0/EstoqueResidencial.Modelo.pdb
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/obj/Debug/net8.0/EstoqueResidencial.Persistencia.Colecao.csproj.AssemblyReference.cache
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/obj/Debug/net8.0/EstoqueResidencial.Persistencia.Colecao.GeneratedMSBuildEditorConfig.editorconfig
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/obj/Debug/net8.0/EstoqueResidencial.Persistencia.Colecao.AssemblyInfoInputs.cache
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/obj/Debug/net8.0/EstoqueResidencial.Persistencia.Colecao.AssemblyInfo.cs
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/obj/Debug/net8.0/EstoqueResidencial.Persistencia.Colecao.csproj.CoreCompileInputs.cache
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/obj/Debug/net8.0/EstoqueR.3C002BA3.Up2Date
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/obj/Debug/net8.0/EstoqueResidencial.Persistencia.Colecao.dll
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/obj/Debug/net8.0/refint/EstoqueResidencial.Persistencia.Colecao.dll
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/obj/Debug/net8.0/EstoqueResidencial.Persistencia.Colecao.pdb
+/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/obj/Debug/net8.0/ref/EstoqueResidencial.Persistencia.Colecao.dll
