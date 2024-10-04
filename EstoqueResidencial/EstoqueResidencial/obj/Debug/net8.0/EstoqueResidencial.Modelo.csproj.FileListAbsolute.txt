@@ -9,3 +9,15 @@
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial/obj/Debug/net8.0/refint/EstoqueResidencial.Modelo.dll
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial/obj/Debug/net8.0/EstoqueResidencial.Modelo.pdb
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial/obj/Debug/net8.0/ref/EstoqueResidencial.Modelo.dll
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\bin\Debug\net8.0\EstoqueResidencial.Modelo.deps.json
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\bin\Debug\net8.0\EstoqueResidencial.Modelo.dll
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\bin\Debug\net8.0\EstoqueResidencial.Modelo.pdb
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\obj\Debug\net8.0\EstoqueResidencial.Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\obj\Debug\net8.0\EstoqueResidencial.Modelo.AssemblyInfoInputs.cache
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\obj\Debug\net8.0\EstoqueResidencial.Modelo.AssemblyInfo.cs
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\obj\Debug\net8.0\EstoqueResidencial.Modelo.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\obj\Debug\net8.0\EstoqueResidencial.Modelo.sourcelink.json
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\obj\Debug\net8.0\EstoqueResidencial.Modelo.dll
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\obj\Debug\net8.0\refint\EstoqueResidencial.Modelo.dll
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\obj\Debug\net8.0\EstoqueResidencial.Modelo.pdb
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial\obj\Debug\net8.0\ref\EstoqueResidencial.Modelo.dll

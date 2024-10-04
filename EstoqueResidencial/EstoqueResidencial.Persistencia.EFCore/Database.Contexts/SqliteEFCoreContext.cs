@@ -10,12 +10,13 @@ public class SqliteEFCoreContext : DbContext
     // public SqliteEFCoreContext(DbContextOptions<SqliteEFCoreContext> options) : base(options)
     // {}
 
-    public DbSet<CategoriaModelo> Categorias {get;set;}
+    public DbSet<CategoriaModelo> Categorias { get; set; }
+    public DbSet<FornecedorModelo> Fornecedores { get; set; }
 
     // public string DbPath { get; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
-        => options.UseSqlite($"Data Source=/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.EFCore/utfpr.db");
+        => options.UseSqlite($"Data Source=../EstoqueResidencial.Persistencia.EFCore/utfpr.db");
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -25,5 +26,10 @@ public class SqliteEFCoreContext : DbContext
             {
                 eb.HasKey(pk => pk.CategoriaID);
             });
+        modelBuilder.Entity<FornecedorModelo>(
+        eb =>
+        {
+            eb.HasKey(pk => pk.FornecedorID);
+        });
     }
 }

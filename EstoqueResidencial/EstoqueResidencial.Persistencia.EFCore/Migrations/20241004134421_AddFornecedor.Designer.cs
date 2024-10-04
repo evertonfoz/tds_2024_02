@@ -2,6 +2,7 @@
 using EstoqueResidencial.Persistencia.EFCore.Database.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EstoqueResidencial.Persistencia.EFCore.Migrations
 {
     [DbContext(typeof(SqliteEFCoreContext))]
-    partial class SqliteEFCoreContextModelSnapshot : ModelSnapshot
+    [Migration("20241004134421_AddFornecedor")]
+    partial class AddFornecedor
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.8");
@@ -38,9 +41,6 @@ namespace EstoqueResidencial.Persistencia.EFCore.Migrations
                     b.Property<int>("FornecedorID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
-
-                    b.Property<string>("Endereco")
-                        .HasColumnType("TEXT");
 
                     b.Property<string>("Nome")
                         .HasColumnType("TEXT");

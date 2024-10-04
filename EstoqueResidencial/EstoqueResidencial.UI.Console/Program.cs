@@ -3,11 +3,21 @@ using EstoqueResidencial.Persistencia.EFCore.Database.Contexts;
 using EstoqueResidencial.Persistencia.EFCore.Repositorios;
 
 var efDbContext = new SqliteEFCoreContext();
+/*
 var repositorioEF = new RepositorioCRUDGenericoEFCore<CategoriaModelo>(efDbContext);
 repositorioEF.Adicionar(efDbContext.Categorias, new CategoriaModelo(1, "Higiene", "Sabonete"));
 foreach (var categoria in repositorioEF.ObterTodos(efDbContext.Categorias))
 {
     Console.Write(categoria);
+}*/
+
+var repositorioFornecedor = new RepositorioCRUDGenericoEFCore<FornecedorModelo>(efDbContext);
+
+repositorioFornecedor.Adicionar(efDbContext.Fornecedores, new FornecedorModelo(1, "Supermercado", "1234-5678", "Rua A, 123"));
+
+foreach (var fornecedor in repositorioFornecedor.ObterTodos(efDbContext.Fornecedores))
+{
+    Console.Write(fornecedor);
 }
 
 
@@ -19,7 +29,7 @@ foreach (var categoria in repositorioEF.ObterTodos(efDbContext.Categorias))
 // }
 // catch (Exception e)
 // {
-    
+
 //     Console.WriteLine(e.Message);
 // }
 
