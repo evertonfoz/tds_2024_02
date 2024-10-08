@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/EstoqueResidencial.WebAPI.props" />
+</Project>
