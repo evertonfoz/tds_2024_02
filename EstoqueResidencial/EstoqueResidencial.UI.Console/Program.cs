@@ -5,9 +5,9 @@ using EstoqueResidencial.Persistencia.EFCore.Repositorios;
 var efDbContext = new SqliteEFCoreContext();
 efDbContext.Database.EnsureCreated();
 var repositorioEF = new RepositorioCRUDGenericoEFCore<CategoriaModelo>(efDbContext);
-var repositorioLocalizacao = new RepositorioCRUDGenericoEFCore<LocalizacaoArmazenamento>(efDbContext);
+var repositorioLocalizacao = new RepositorioCRUDGenericoEFCore<Localizacao>(efDbContext);
 
-repositorioLocalizacao.Adicionar(efDbContext.Localizacoes, new LocalizacaoArmazenamento(1, "Geladeira"));
+repositorioLocalizacao.Adicionar(efDbContext.Localizacoes, new Localizacao(1, "Geladeira"));
 repositorioEF.Adicionar(efDbContext.Categorias, new CategoriaModelo(1, "Higiene", "Sabonete"));
 
 foreach (var categoria in repositorioEF.ObterTodos(efDbContext.Categorias))
