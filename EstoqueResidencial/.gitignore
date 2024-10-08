@@ -1,0 +1,5 @@
+# Ignorar pastas obj
+**/obj/
+
+# Ignorar pastas Migrations
+**/Migrations/
