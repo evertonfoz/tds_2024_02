@@ -12,7 +12,7 @@ public class SqliteEFCoreContext : DbContext
 
     public DbSet<CategoriaModelo> Categorias {get;set;}
 
-    public DbSet<LocalizacaoArmazenamento> Localizacoes {get;set;}
+    public DbSet<Localizacao> Localizacoes {get;set;}
 
     // public string DbPath { get; }
 
@@ -27,7 +27,7 @@ public class SqliteEFCoreContext : DbContext
             {
                 eb.HasKey(pk => pk.CategoriaID);
             });
-        modelBuilder.Entity<LocalizacaoArmazenamento>(eb =>
+        modelBuilder.Entity<Localizacao>(eb =>
             {
                 eb.HasKey(pk => pk.LocalizacaoID);
             });

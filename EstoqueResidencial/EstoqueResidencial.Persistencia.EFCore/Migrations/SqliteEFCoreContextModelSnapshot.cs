@@ -33,13 +33,13 @@ namespace EstoqueResidencial.Persistencia.EFCore.Migrations
                     b.ToTable("Categorias");
                 });
 
-            modelBuilder.Entity("EstoqueResidencial.Modelo.Basicas.LocalizacaoArmazenamento", b =>
+            modelBuilder.Entity("EstoqueResidencial.Modelo.Basicas.Localizacao", b =>
                 {
                     b.Property<int>("LocalizacaoID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("NomeLocal")
+                    b.Property<string>("Nome")
                         .HasColumnType("TEXT");
 
                     b.HasKey("LocalizacaoID");

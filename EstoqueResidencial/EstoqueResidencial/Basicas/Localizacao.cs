@@ -2,32 +2,32 @@ using System.Collections.Generic;
 
 namespace EstoqueResidencial.Modelo.Basicas
 {
-    public class LocalizacaoArmazenamento
+    public class Localizacao
     {
         public int LocalizacaoID { get; set; }
 
-        public string? NomeLocal { get; set; }
+        public string? Nome { get; set; }
 
 
-        public LocalizacaoArmazenamento(int localizacaoID, string nomeLocal)
+        public Localizacao(int localizacaoID, string nome)
         {
             LocalizacaoID = localizacaoID;
-            NomeLocal = nomeLocal;
+            Nome = nome;
         }
 
-        public LocalizacaoArmazenamento()
+        public Localizacao()
         {
 
         }
 
         public override string ToString()
         {
-            return $"[{LocalizacaoID}, {NomeLocal}]";
+            return $"[{LocalizacaoID}, {Nome}]";
         }
 
         public override bool Equals(object? obj)
         {
-            if (obj is LocalizacaoArmazenamento other)
+            if (obj is Localizacao other)
             {
                 return other.LocalizacaoID == LocalizacaoID;
             }
