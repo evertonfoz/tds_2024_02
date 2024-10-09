@@ -1,7 +1,12 @@
 # Ignorar diretórios de build
 bin/
 obj/
+EstoqueResidencial/obj/
+EstoqueResidencial/bin/
+EstoqueResidencial.Persistencia.Colecao/obj/
+
 **/obj/
+**/bin/
 **/Migrations/
 
 # Ignorar arquivos binários específicos
