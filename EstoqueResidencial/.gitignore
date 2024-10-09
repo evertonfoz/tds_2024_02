@@ -1,5 +1,12 @@
-# Ignorar pastas obj
+# Ignorar diretórios de build
+bin/
+obj/
 **/obj/
-
-# Ignorar pastas Migrations
 **/Migrations/
+
+# Ignorar arquivos binários específicos
+*.dll
+*.pdb
+*.exe
+*.cache
+*.sourcelink.json
