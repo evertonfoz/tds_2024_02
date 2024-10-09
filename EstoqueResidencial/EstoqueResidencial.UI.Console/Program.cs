@@ -12,11 +12,11 @@ foreach (var categoria in repositorioEF.ObterTodos(efDbContext.Categorias))
     Console.Write(categoria);
 }*/
 
+
 var repositorioFornecedor = new RepositorioCRUDGenericoEFCore<FornecedorModelo>(efDbContext);
 var repositorioLocalizacao = new RepositorioCRUDGenericoEFCore<Localizacao>(efDbContext);
 
 repositorioLocalizacao.Adicionar(efDbContext.Localizacoes, new Localizacao(1, "Geladeira"));
-
 repositorioFornecedor.Adicionar(efDbContext.Fornecedores, new FornecedorModelo(1, "Supermercado", "1234-5678", "Rua A, 123"));
 
 foreach (var fornecedor in repositorioFornecedor.ObterTodos(efDbContext.Fornecedores))
@@ -28,6 +28,7 @@ foreach (var localizacao in repositorioLocalizacao.ObterTodos(efDbContext.Locali
 {
     Console.WriteLine(localizacao);
 }
+
 
 // var repositorioColecao = new RepositorioCRUDGenericoColecoes<CategoriaModelo>([]);
 // repositorioColecao.Adicionar(new CategoriaModelo(1, "Higiene", "Sabonete"));

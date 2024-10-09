@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstoqueResidencial.Persistencia.EFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c697067a07c42b2640ee61622fa054d9c019758f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4781df034c03c9947b54c001f46d65d8aea00fa4")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstoqueResidencial.Persistencia.EFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstoqueResidencial.Persistencia.EFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
