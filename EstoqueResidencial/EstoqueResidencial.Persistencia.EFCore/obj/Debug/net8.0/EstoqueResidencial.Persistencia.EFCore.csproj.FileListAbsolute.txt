@@ -15,57 +15,38 @@
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.EFCore/obj/Debug/net8.0/EstoqueResidencial.Persistencia.EFCore.pdb
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.EFCore/obj/Debug/net8.0/EstoqueResidencial.Persistencia.EFCore.genruntimeconfig.cache
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.EFCore/obj/Debug/net8.0/ref/EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.deps.json
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.runtimeconfig.json
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.pdb
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Modelo.dll
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Modelo.pdb
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.csproj.AssemblyReference.cache
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.AssemblyInfoInputs.cache
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.AssemblyInfo.cs
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.csproj.CoreCompileInputs.cache
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.sourcelink.json
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueR.AC7C0FD2.Up2Date
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\refint\EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.pdb
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.genruntimeconfig.cache
-C:\Users\Garra pc\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\ref\EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.deps.json
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.runtimeconfig.json
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.pdb
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Modelo.dll
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Modelo.pdb
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.csproj.AssemblyReference.cache
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.AssemblyInfoInputs.cache
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.AssemblyInfo.cs
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.csproj.CoreCompileInputs.cache
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.sourcelink.json
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueR.AC7C0FD2.Up2Date
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\refint\EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.pdb
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.genruntimeconfig.cache
-C:\Users\User\UTFPR\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\ref\EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.csproj.AssemblyReference.cache
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.AssemblyInfoInputs.cache
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.AssemblyInfo.cs
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.csproj.CoreCompileInputs.cache
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.sourcelink.json
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\refint\EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.pdb
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.deps.json
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.runtimeconfig.json
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.dll
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.pdb
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Modelo.dll
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Modelo.pdb
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueR.AC7C0FD2.Up2Date
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.genruntimeconfig.cache
-C:\Users\User\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\ref\EstoqueResidencial.Persistencia.EFCore.dll
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.deps.json
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.runtimeconfig.json
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.dll
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.pdb
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Modelo.dll
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Modelo.pdb
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.csproj.AssemblyReference.cache
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.AssemblyInfoInputs.cache
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.AssemblyInfo.cs
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.sourcelink.json
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueR.AC7C0FD2.Up2Date
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.dll
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\refint\EstoqueResidencial.Persistencia.EFCore.dll
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.pdb
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.genruntimeconfig.cache
+C:\Users\vitor\Desktop\tds_2024_02\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\ref\EstoqueResidencial.Persistencia.EFCore.dll
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.deps.json
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.runtimeconfig.json
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.dll
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.pdb
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Modelo.dll
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\bin\Debug\net8.0\EstoqueResidencial.Modelo.pdb
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.AssemblyInfo.cs
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueR.AC7C0FD2.Up2Date
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.dll
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\refint\EstoqueResidencial.Persistencia.EFCore.dll
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.pdb
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\EstoqueResidencial.Persistencia.EFCore.genruntimeconfig.cache
+C:\Users\User\Desktop\tds_2024_02-Vitor\EstoqueResidencial\EstoqueResidencial.Persistencia.EFCore\obj\Debug\net8.0\ref\EstoqueResidencial.Persistencia.EFCore.dll

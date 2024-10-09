@@ -33,7 +33,27 @@ namespace EstoqueResidencial.Persistencia.EFCore.Migrations
                     b.ToTable("Categorias");
                 });
 
-            modelBuilder.Entity("EstoqueResidencial.Modelo.Basicas.Localizacao", b =>
+            modelBuilder.Entity("EstoqueResidencial.Modelo.Basicas.FornecedorModelo", b =>
+                {
+                    b.Property<int>("FornecedorID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Endereco")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Telefone")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("FornecedorID");
+
+                    b.ToTable("Fornecedores");
+                });
+
+                modelBuilder.Entity("EstoqueResidencial.Modelo.Basicas.Localizacao", b =>
                 {
                     b.Property<int>("LocalizacaoID")
                         .ValueGeneratedOnAdd()

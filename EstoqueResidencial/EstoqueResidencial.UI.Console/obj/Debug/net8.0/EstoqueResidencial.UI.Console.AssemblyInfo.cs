@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstoqueResidencial.UI.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+829528b5903ad8ff90cb1b80005fe8384c00303f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c697067a07c42b2640ee61622fa054d9c019758f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstoqueResidencial.UI.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstoqueResidencial.UI.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

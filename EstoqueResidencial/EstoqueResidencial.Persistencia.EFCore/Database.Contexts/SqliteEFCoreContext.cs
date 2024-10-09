@@ -10,14 +10,15 @@ public class SqliteEFCoreContext : DbContext
     // public SqliteEFCoreContext(DbContextOptions<SqliteEFCoreContext> options) : base(options)
     // {}
 
-    public DbSet<CategoriaModelo> Categorias {get;set;}
+    public DbSet<CategoriaModelo> Categorias { get; set; }
+    public DbSet<FornecedorModelo> Fornecedores { get; set; }
 
     public DbSet<Localizacao> Localizacoes {get;set;}
 
     // public string DbPath { get; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
-        => options.UseSqlite($"Data Source=utfpr.db");
+        => options.UseSqlite($"Data Source=../utfpr.db");
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -27,9 +28,14 @@ public class SqliteEFCoreContext : DbContext
             {
                 eb.HasKey(pk => pk.CategoriaID);
             });
+        modelBuilder.Entity<FornecedorModelo>(
+        eb =>
+        {
+            eb.HasKey(pk => pk.FornecedorID);
+        });
         modelBuilder.Entity<Localizacao>(eb =>
-            {
-                eb.HasKey(pk => pk.LocalizacaoID);
-            });
+        {
+            eb.HasKey(pk => pk.LocalizacaoID);
+        });
     }
 }
