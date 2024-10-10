@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial.WebAPI/EstoqueResidencial.Model/EstoqueResidencial.Model.csproj": {}
+    "C:\\Users\\marco\\tds_2024_02\\EstoqueResidencial.WebAPI\\EstoqueResidencial.Model\\EstoqueResidencial.Model.csproj": {}
   },
   "projects": {
-    "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial.WebAPI/EstoqueResidencial.Model/EstoqueResidencial.Model.csproj": {
+    "C:\\Users\\marco\\tds_2024_02\\EstoqueResidencial.WebAPI\\EstoqueResidencial.Model\\EstoqueResidencial.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial.WebAPI/EstoqueResidencial.Model/EstoqueResidencial.Model.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\tds_2024_02\\EstoqueResidencial.WebAPI\\EstoqueResidencial.Model\\EstoqueResidencial.Model.csproj",
         "projectName": "EstoqueResidencial.Model",
-        "projectPath": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial.WebAPI/EstoqueResidencial.Model/EstoqueResidencial.Model.csproj",
-        "packagesPath": "/Users/evertoncoimbradearaujo/.nuget/packages/",
-        "outputPath": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial.WebAPI/EstoqueResidencial.Model/obj/",
+        "projectPath": "C:\\Users\\marco\\tds_2024_02\\EstoqueResidencial.WebAPI\\EstoqueResidencial.Model\\EstoqueResidencial.Model.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\tds_2024_02\\EstoqueResidencial.WebAPI\\EstoqueResidencial.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/evertoncoimbradearaujo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
