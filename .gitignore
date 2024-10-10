@@ -1,0 +1,79 @@
+# Compiled source
+*.dll
+*.exe
+*.pdb
+*.db
+*.log
+*.msi
+*.nupkg
+*.ps1
+*.so
+*.sql
+*.swp
+*.user
+*.userosscache
+*.suo
+*.xuser
+*.cache
+*.zip
+*.7z
+*.tar.gz
+
+# Build directories
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+.vs/
+.vscode/
+
+# Roslyn caches
+[Rr]oslyn/
+
+# Rider project files
+.idea/
+
+# Auto-generated files
+*.g.cs
+*.g.i.cs
+*.generated.cs
+*.gen.cs
+*.designer.cs
+
+# Packages directory should be ignored
+packages/
+.nuget/
+
+# User-specific files
+*.userprefs
+*.orig
+*_ReSharper.*
+*_CodeRushLogs/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IIS config
+*.vspscc
+*.vssscc
+
+# Docker
+docker-compose.override.yml
+docker-compose.*
+
+# Azure Pipelines
+.azure-pipelines/
+
+# Local history
+.history/
+local.history/
+
+# GitHub token file
+*.token
