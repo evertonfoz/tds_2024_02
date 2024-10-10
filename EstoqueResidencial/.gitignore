@@ -7,7 +7,6 @@ EstoqueResidencial.Persistencia.Colecao/obj/
 
 **/obj/
 **/bin/
-**/Migrations/
 
 # Ignorar arquivos binários específicos
 *.dll
