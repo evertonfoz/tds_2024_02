@@ -12,11 +12,12 @@ public class EstoqueResidencialEFCoreContext : DbContext
     }
 
     public DbSet<CategoryModel>  Categories { get; set; }
+    public DbSet<SupplierModel>  Suppliers { get; set; }
 
-    // protected override void OnConfiguring(DbContextOptionsBuilder options)
-    //     => options.UseSqlite($"Data Source=./utfpr.db");
+    protected override void OnConfiguring(DbContextOptionsBuilder options)
+        => options.UseSqlite("Data Source=../EstoqueResidencia.EFCore/utfpr.db");
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder
@@ -24,6 +25,12 @@ public class EstoqueResidencialEFCoreContext : DbContext
             eb =>
             {
                 eb.HasKey(pk => pk.CategoryID);
+            });
+        modelBuilder
+        .Entity<SupplierModel>(
+            eb =>
+            {
+                eb.HasKey(pk => pk.SupplierID);
             });
     }
 }

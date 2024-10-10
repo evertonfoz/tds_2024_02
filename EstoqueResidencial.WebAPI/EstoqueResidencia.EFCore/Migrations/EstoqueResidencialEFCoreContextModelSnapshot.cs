@@ -32,6 +32,26 @@ namespace EstoqueResidencia.EFCore.Migrations
 
                     b.ToTable("Categories");
                 });
+
+            modelBuilder.Entity("EstoqueResidencial.Model.Model.SupplierModel", b =>
+                {
+                    b.Property<int>("SupplierID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Address")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Cellphone")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("SupplierID");
+
+                    b.ToTable("Suppliers");
+                });
 #pragma warning restore 612, 618
         }
     }
