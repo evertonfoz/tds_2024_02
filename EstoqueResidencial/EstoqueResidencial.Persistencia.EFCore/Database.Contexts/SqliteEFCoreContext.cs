@@ -31,5 +31,9 @@ public class SqliteEFCoreContext : DbContext
         {
             eb.HasKey(pk => pk.FornecedorID);
         });
+        modelBuilder.Entity<Localizacao>(eb =>
+            {
+                eb.HasKey(pk => pk.LocalizacaoID);
+            });        
     }
 }
