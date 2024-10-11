@@ -52,6 +52,19 @@ namespace EstoqueResidencial.Persistencia.EFCore.Migrations
 
                     b.ToTable("Fornecedores");
                 });
+            modelBuilder.Entity("EstoqueResidencial.Modelo.Basicas.Localizacao", b =>
+                {
+                    b.Property<int>("LocalizacaoID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("LocalizacaoID");
+
+                    b.ToTable("Localizacoes");
+                });
 #pragma warning restore 612, 618
         }
     }
