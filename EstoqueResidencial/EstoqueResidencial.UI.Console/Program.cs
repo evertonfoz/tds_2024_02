@@ -3,6 +3,8 @@ using EstoqueResidencial.Persistencia.EFCore.Database.Contexts;
 using EstoqueResidencial.Persistencia.EFCore.Repositorios;
 
 var efDbContext = new SqliteEFCoreContext();
+
+efDbContext.Database.EnsureCreated();
 /*
 var repositorioEF = new RepositorioCRUDGenericoEFCore<CategoriaModelo>(efDbContext);
 repositorioEF.Adicionar(efDbContext.Categorias, new CategoriaModelo(1, "Higiene", "Sabonete"));
@@ -14,8 +16,12 @@ foreach (var categoria in repositorioEF.ObterTodos(efDbContext.Categorias))
 var repositorioFornecedor = new RepositorioCRUDGenericoEFCore<FornecedorModelo>(efDbContext);
 var repositorioLocalizacao = new RepositorioCRUDGenericoEFCore<Localizacao>(efDbContext);
 
+var repositorioUnidade = new RepositorioCRUDGenericoEFCore<UnidadeMedidaModelo>(efDbContext);
+
 repositorioFornecedor.Adicionar(efDbContext.Fornecedores, new FornecedorModelo(1, "Supermercado", "1234-5678", "Rua A, 123"));
 repositorioLocalizacao.Adicionar(efDbContext.Localizacoes, new Localizacao(1, "Geladeira"));
+
+repositorioUnidade.Adicionar(efDbContext.UnidadesMedida, new UnidadeMedidaModelo(1, "Quilos", "KG", 20));
 
 foreach (var fornecedor in repositorioFornecedor.ObterTodos(efDbContext.Fornecedores))
 {
@@ -26,6 +32,12 @@ foreach (var localizacao in repositorioLocalizacao.ObterTodos(efDbContext.Locali
 {
     Console.WriteLine(localizacao);
 }
+
+foreach (var unidadeMedida in repositorioUnidade.ObterTodos(efDbContext.UnidadesMedida))
+{
+    Console.Write(unidadeMedida);
+}
+
 
 // var repositorioColecao = new RepositorioCRUDGenericoColecoes<CategoriaModelo>([]);
 // repositorioColecao.Adicionar(new CategoriaModelo(1, "Higiene", "Sabonete"));

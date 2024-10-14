@@ -1241,39 +1241,45 @@
     ]
   },
   "packageFolders": {
-    "/Users/evertoncoimbradearaujo/.nuget/packages/": {}
+    "C:\\Users\\berna\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.UI.Console/EstoqueResidencial.UI.Console.csproj",
+      "projectUniqueName": "C:\\Users\\berna\\Desktop\\coisas\\faculdade\\programação\\TDS\\tds\\tds_2024_02\\EstoqueResidencial\\EstoqueResidencial.UI.Console\\EstoqueResidencial.UI.Console.csproj",
       "projectName": "EstoqueResidencial.UI.Console",
-      "projectPath": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.UI.Console/EstoqueResidencial.UI.Console.csproj",
-      "packagesPath": "/Users/evertoncoimbradearaujo/.nuget/packages/",
-      "outputPath": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.UI.Console/obj/",
+      "projectPath": "C:\\Users\\berna\\Desktop\\coisas\\faculdade\\programação\\TDS\\tds\\tds_2024_02\\EstoqueResidencial\\EstoqueResidencial.UI.Console\\EstoqueResidencial.UI.Console.csproj",
+      "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\berna\\Desktop\\coisas\\faculdade\\programação\\TDS\\tds\\tds_2024_02\\EstoqueResidencial\\EstoqueResidencial.UI.Console\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/evertoncoimbradearaujo/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/EstoqueResidencial.Persistencia.Colecao.csproj": {
-              "projectPath": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.Colecao/EstoqueResidencial.Persistencia.Colecao.csproj"
+            "C:\\Users\\berna\\Desktop\\coisas\\faculdade\\programação\\TDS\\tds\\tds_2024_02\\EstoqueResidencial\\EstoqueResidencial.Persistencia.Colecao\\EstoqueResidencial.Persistencia.Colecao.csproj": {
+              "projectPath": "C:\\Users\\berna\\Desktop\\coisas\\faculdade\\programação\\TDS\\tds\\tds_2024_02\\EstoqueResidencial\\EstoqueResidencial.Persistencia.Colecao\\EstoqueResidencial.Persistencia.Colecao.csproj"
             },
-            "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.EFCore/EstoqueResidencial.Persistencia.EFCore.csproj": {
-              "projectPath": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial.Persistencia.EFCore/EstoqueResidencial.Persistencia.EFCore.csproj"
+            "C:\\Users\\berna\\Desktop\\coisas\\faculdade\\programação\\TDS\\tds\\tds_2024_02\\EstoqueResidencial\\EstoqueResidencial.Persistencia.EFCore\\EstoqueResidencial.Persistencia.EFCore.csproj": {
+              "projectPath": "C:\\Users\\berna\\Desktop\\coisas\\faculdade\\programação\\TDS\\tds\\tds_2024_02\\EstoqueResidencial\\EstoqueResidencial.Persistencia.EFCore\\EstoqueResidencial.Persistencia.EFCore.csproj"
             },
-            "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial/EstoqueResidencial.Modelo.csproj": {
-              "projectPath": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial/EstoqueResidencial/EstoqueResidencial.Modelo.csproj"
+            "C:\\Users\\berna\\Desktop\\coisas\\faculdade\\programação\\TDS\\tds\\tds_2024_02\\EstoqueResidencial\\EstoqueResidencial\\EstoqueResidencial.Modelo.csproj": {
+              "projectPath": "C:\\Users\\berna\\Desktop\\coisas\\faculdade\\programação\\TDS\\tds\\tds_2024_02\\EstoqueResidencial\\EstoqueResidencial\\EstoqueResidencial.Modelo.csproj"
             }
           }
         }
@@ -1308,7 +1314,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
