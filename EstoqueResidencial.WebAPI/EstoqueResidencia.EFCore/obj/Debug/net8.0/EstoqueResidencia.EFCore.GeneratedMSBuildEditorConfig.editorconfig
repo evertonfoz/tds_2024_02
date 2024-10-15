@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EstoqueResidencia.EFCore
-build_property.ProjectDir = C:\Users\marco\tds_2024_02\EstoqueResidencial.WebAPI\EstoqueResidencia.EFCore\
+build_property.ProjectDir = /Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial.WebAPI/EstoqueResidencia.EFCore/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

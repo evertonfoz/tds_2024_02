@@ -2437,32 +2437,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marco\\.nuget\\packages\\": {}
+    "/Users/evertoncoimbradearaujo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marco\\tds_2024_02\\EstoqueResidencial.WebAPI\\EstoqueResidencia.EFCore\\EstoqueResidencia.EFCore.csproj",
+      "projectUniqueName": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial.WebAPI/EstoqueResidencia.EFCore/EstoqueResidencia.EFCore.csproj",
       "projectName": "EstoqueResidencia.EFCore",
-      "projectPath": "C:\\Users\\marco\\tds_2024_02\\EstoqueResidencial.WebAPI\\EstoqueResidencia.EFCore\\EstoqueResidencia.EFCore.csproj",
-      "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marco\\tds_2024_02\\EstoqueResidencial.WebAPI\\EstoqueResidencia.EFCore\\obj\\",
+      "projectPath": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial.WebAPI/EstoqueResidencia.EFCore/EstoqueResidencia.EFCore.csproj",
+      "packagesPath": "/Users/evertoncoimbradearaujo/.nuget/packages/",
+      "outputPath": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial.WebAPI/EstoqueResidencia.EFCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/evertoncoimbradearaujo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\marco\\tds_2024_02\\EstoqueResidencial.WebAPI\\EstoqueResidencial.Model\\EstoqueResidencial.Model.csproj": {
-              "projectPath": "C:\\Users\\marco\\tds_2024_02\\EstoqueResidencial.WebAPI\\EstoqueResidencial.Model\\EstoqueResidencial.Model.csproj"
+            "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial.WebAPI/EstoqueResidencial.Model/EstoqueResidencial.Model.csproj": {
+              "projectPath": "/Users/evertoncoimbradearaujo/Documents/GitHub/tds_2024_02/EstoqueResidencial.WebAPI/EstoqueResidencial.Model/EstoqueResidencial.Model.csproj"
             }
           }
         }
@@ -2519,7 +2520,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
