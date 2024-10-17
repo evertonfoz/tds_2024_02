@@ -1,7 +1,19 @@
+using Aula03.Models;
 using Aula03.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("http://localhost:5070") // URL do frontend Blazor
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -28,5 +40,13 @@ app.MapGet("/api/categories", async (EFCoreContext context) =>
     }
 );
 
+app.MapPost("/api/categories", async (EFCoreContext context, CategoryModel category) =>
+{
+    context.Categories.Add(category);
+    await context.SaveChangesAsync();
+    return Results.Created($"/api/categories/{category.CategoryID}", category);
+});
+
+app.UseCors();
 
 app.Run();
