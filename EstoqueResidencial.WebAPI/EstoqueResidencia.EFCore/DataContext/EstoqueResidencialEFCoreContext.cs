@@ -13,6 +13,7 @@ public class EstoqueResidencialEFCoreContext : DbContext
 
     public DbSet<CategoryModel>  Categories { get; set; }
     public DbSet<SupplierModel>  Suppliers { get; set; }
+    public DbSet<StorageModel> Storage { get; set }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
         => options.UseSqlite("Data Source=../EstoqueResidencia.EFCore/utfpr.db");
@@ -31,6 +32,12 @@ public class EstoqueResidencialEFCoreContext : DbContext
             eb =>
             {
                 eb.HasKey(pk => pk.SupplierID);
+            });
+        modelBuilder
+        .Entity<StorageModel>(
+            eb =>
+            {
+                eb.HasKey(pk => pk.StorageID);
             });
     }
 }
