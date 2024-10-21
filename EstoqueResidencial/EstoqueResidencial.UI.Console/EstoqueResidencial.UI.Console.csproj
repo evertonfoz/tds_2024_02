@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+=======
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+>>>>>>> origin/main
   <ItemGroup>
     <ProjectReference Include="..\EstoqueResidencial\EstoqueResidencial.Modelo.csproj" />
     <ProjectReference Include="..\EstoqueResidencial.Persistencia.Colecao\EstoqueResidencial.Persistencia.Colecao.csproj" />
     <ProjectReference Include="..\EstoqueResidencial.Persistencia.EFCore\EstoqueResidencial.Persistencia.EFCore.csproj" />
+<<<<<<< HEAD
   </ItemGroup>
 
   <PropertyGroup>
@@ -14,3 +20,15 @@
   </PropertyGroup>
 
 </Project>
+=======
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
+>>>>>>> origin/main

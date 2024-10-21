@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 @EstoqueResidencial.WebAPI_HostAddress = http://localhost:5094
 
 GET {{EstoqueResidencial.WebAPI_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+=======
+@EstoqueResidencial.WebAPI_HostAddress = http://localhost:5094
+
+GET {{EstoqueResidencial.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+>>>>>>> origin/main

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bTLcPTSb6a9BS39FNpfdLkeKU5rG255D1eHD4oTYR4w=",
+  "Source": "EstoqueResidencial.WebAPI",
+  "BasePath": "_content/EstoqueResidencial.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

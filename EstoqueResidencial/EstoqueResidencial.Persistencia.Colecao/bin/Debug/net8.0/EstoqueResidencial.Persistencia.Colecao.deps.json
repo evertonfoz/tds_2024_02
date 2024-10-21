@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EstoqueResidencial.Persistencia.Colecao/1.0.0": {
+        "dependencies": {
+          "EstoqueResidencial.Modelo": "1.0.0"
+        },
+        "runtime": {
+          "EstoqueResidencial.Persistencia.Colecao.dll": {}
+        }
+      },
+      "EstoqueResidencial.Modelo/1.0.0": {
+        "runtime": {
+          "EstoqueResidencial.Modelo.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EstoqueResidencial.Persistencia.Colecao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EstoqueResidencial.Modelo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

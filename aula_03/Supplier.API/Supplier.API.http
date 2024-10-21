@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 @Supplier.API_HostAddress = http://localhost:5226
 
 GET {{Supplier.API_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+=======
+@Supplier.API_HostAddress = http://localhost:5226
+
+GET {{Supplier.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+>>>>>>> origin/main

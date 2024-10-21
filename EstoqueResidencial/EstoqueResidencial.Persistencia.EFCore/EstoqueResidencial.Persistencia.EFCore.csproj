@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -6,6 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+=======
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+>>>>>>> origin/main
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
@@ -17,6 +28,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+<<<<<<< HEAD
   </ItemGroup>
 
   <ItemGroup>
@@ -24,3 +36,12 @@
   </ItemGroup>
 
 </Project>
+=======
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EstoqueResidencial\EstoqueResidencial.Modelo.csproj" />
+  </ItemGroup>
+
+</Project>
+>>>>>>> origin/main
