@@ -6,10 +6,7 @@ public class SupplierModel
     public string? Name { get; set; }
     public string? Cellphone { get; set; }
     public string? Address { get; set; }
-<<<<<<< HEAD
     public List<ItemModel>? Items { get; set; }
-=======
->>>>>>> origin/main
 
     public SupplierModel(int suplierID, string name, string cellphone, string address)
     {
