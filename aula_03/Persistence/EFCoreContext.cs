@@ -6,16 +6,17 @@ namespace Aula03.Persistence;
 public class EFCoreContext : DbContext
 {
     public EFCoreContext(DbContextOptions<EFCoreContext> options) : base(options)
-    // public EFCoreContext( )
+    //public EFCoreContext( )
     {
         
     }
 
     public DbSet<CategoryModel>  Categories { get; set; }
     public DbSet<SupplierModel>  Suppliers { get; set; }
+    public DbSet<UnitOfMeasureModel> UnitsOfMeasure { get; set; }
 
-    // protected override void OnConfiguring(DbContextOptionsBuilder options)
-    //     => options.UseSqlite("Data Source=../utfpr.db");
+    //   protected override void OnConfiguring(DbContextOptionsBuilder options)
+    //       => options.UseSqlite("Data Source=../utfpr.db");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -31,6 +32,12 @@ public class EFCoreContext : DbContext
             eb =>
             {
                 eb.HasKey(pk => pk.SupplierID);
+            });
+        modelBuilder
+        .Entity<UnitOfMeasureModel>(
+            eb =>
+            {
+                eb.HasKey(pk => pk.UnitOfMeasureID);
             });
     }
 }

@@ -52,6 +52,26 @@ namespace Persistence.Migrations
 
                     b.ToTable("Suppliers");
                 });
+
+            modelBuilder.Entity("Aula03.Models.UnitOfMeasureModel", b =>
+                {
+                    b.Property<int>("UnitOfMeasureID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Abbreviation")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("UnitOfMeasureID");
+
+                    b.ToTable("UnitsOfMeasure");
+                });
 #pragma warning restore 612, 618
         }
     }
