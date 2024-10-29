@@ -1,66 +1,88 @@
-﻿@page "/cadastro-categoria"
+﻿@page "/categorias"
 @using Aula03.Models
 @inject HttpClient Http
 
 <div class="container my-5">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <h3 class="text-center mb-4">Cadastro de Categoria</h3>
+    <h3 class="text-center mb-4">Lista de Categorias</h3>
 
-            @if (!string.IsNullOrEmpty(mensagem))
-            {
-                <div class="alert @(sucesso ? "alert-success" : "alert-danger")" role="alert">
-                    @mensagem
-                </div>
-            }
+    @if (categorias == null)
+    {
+        <p>Carregando categorias...</p>
+    }
+    else if (!categorias.Any())
+    {
+        <p>Nenhuma categoria cadastrada.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var categoria in categorias)
+                {
+                    <tr>
+                        <td>@categoria.Name</td>
+                        <td>@categoria.Description</td>
+                        <td>
+                            <button class="btn btn-warning" @onclick="() => EditarCategoria(categoria.CategoryID)">Editar</button>
+                            <button class="btn btn-danger" @onclick="() => RemoverCategoria(categoria.CategoryID)">Remover</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
 
-            <EditForm Model="@category" OnValidSubmit="EnviarCategoria">
-                <DataAnnotationsValidator />
-                <ValidationSummary class="text-danger" />
-
-                <div class="mb-3">
-                    <label for="nome" class="form-label">Nome:</label>
-                    <InputText id="nome" @bind-Value="category.Name" class="form-control" />
-                </div>
-
-                <div class="mb-3">
-                    <label for="descricao" class="form-label">Descrição:</label>
-                    <InputText id="descricao" @bind-Value="category.Description" class="form-control" />
-                </div>
-
-                <button type="submit" class="btn btn-primary w-100">Enviar</button>
-            </EditForm>
-        </div>
-    </div>
+    <button class="btn btn-primary" @onclick="CriarCategoria">Cadastrar Nova Categoria</button>
 </div>
 
 @code {
-    private CategoryModel category = new CategoryModel();
-    private string mensagem = string.Empty;
-    private bool sucesso = true; // controla o estilo da mensagem (sucesso ou erro)
+    private List<CategoryModel> categorias = new List<CategoryModel>();
 
-    private async Task EnviarCategoria()
+    protected override async Task OnInitializedAsync()
     {
-        try
-        {
-            var response = await Http.PostAsJsonAsync("api/categories", category);
+        await CarregarCategorias();
+    }
 
+    private async Task CarregarCategorias()
+    {
+        categorias = await Http.GetFromJsonAsync<List<CategoryModel>>("api/categories");
+    }
+
+    private async Task RemoverCategoria(int id)
+    {
+        var confirmResult = await Task.Run(() => 
+            confirm("Tem certeza que deseja remover esta categoria?"));
+        
+        if (confirmResult)
+        {
+            var response = await Http.DeleteAsync($"api/categories/{id}");
             if (response.IsSuccessStatusCode)
             {
-                mensagem = "Categoria cadastrada com sucesso!";
-                sucesso = true; // exibe a mensagem de sucesso
-                category = new CategoryModel(); // limpa o formulário
+                await CarregarCategorias(); // Atualiza a lista após remoção
             }
             else
             {
-                mensagem = "Erro ao cadastrar a categoria.";
-                sucesso = false; // exibe a mensagem de erro
+                // Lidar com erro de remoção, exibir mensagem se necessário
             }
         }
-        catch (Exception ex)
-        {
-            mensagem = $"Erro na requisição: {ex.Message}";
-            sucesso = false;
-        }
+    }
+
+    private void EditarCategoria(int id)
+    {
+        // Navegar para o formulário de edição
+        NavigationManager.NavigateTo($"/editar-categoria/{id}");
+    }
+
+    private void CriarCategoria()
+    {
+        // Navegar para o formulário de criação
+        NavigationManager.NavigateTo("/cadastro-categoria");
     }
 }

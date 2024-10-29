@@ -3,11 +3,15 @@ namespace Aula03.Models;
 public class CategoryModel
 {
     public int CategoryID { get; set; }
+
     public string? Name { get; set; }
     public string? Description { get; set; }
 
     public List<ItemModel>? Items { get; set; }
 
+    //sugestão: Talvez remover o categoryID ajudaria a evitar a necessidade de 
+    //informar o ID manualmente ao criar novos objetos, permitindo que o banco 
+    //de dados gere esse valor automaticamente.
     public CategoryModel(int categoryID, string name, string description)
     {
         CategoryID = categoryID;

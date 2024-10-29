@@ -14,12 +14,15 @@ public class RepositorioCRUDGenericoEFCore<T>(DbContext repositorio) : IReposito
 
     public void Atualizar(T entidade)
     {
-        throw new NotImplementedException();
+        DbSet<T>? dbsetTabela = tabela as DbSet<T>;
+        dbsetTabela!.Update(entidade);
+        repositorio.SaveChanges();
     }
 
     public T? ObterPorId(int id)
     {
-        throw new NotImplementedException();
+        DbSet<T>? dbsetTabela = tabela as DbSet<T>;
+        return dbsetTabela!.Find(id);
     }
 
     public IEnumerable<T> ObterTodos(object tabela)
@@ -30,7 +33,9 @@ public class RepositorioCRUDGenericoEFCore<T>(DbContext repositorio) : IReposito
 
     public void Remover(T entidade)
     {
-        throw new NotImplementedException();
+        DbSet<T>? dbsetTabela = tabela as DbSet<T>;
+        dbsetTabela!.Remove(entidade);
+        repositorio.SaveChanges();
     }
 }
 =======

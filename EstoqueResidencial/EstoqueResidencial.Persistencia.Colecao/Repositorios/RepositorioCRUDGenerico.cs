@@ -11,18 +11,22 @@ public class RepositorioCRUDGenericoColecoes<T>(List<T> repositorio) : IReposito
     public void Adicionar(T entidade)
     {
         if (repositorio.Contains(entidade))
-            throw new Exception("Violação de chave primária");
+            throw new Exception("Violação de chave primária: a entidade já existe na coleção.");
         repositorio.Add(entidade);
     }
 
     public void Atualizar(T entidade)
     {
-        throw new NotImplementedException();
+        var index = repositorio.FindIndex(e => e.Equals(entidade));
+        if (index == -1)
+            throw new Exception("Entidade não encontrada para atualização.");
+        
+        repositorio[index] = entidade;
     }
 
     public T? ObterPorId(int id)
     {
-        throw new NotImplementedException();
+        return repositorio.FirstOrDefault(e => (e as CategoriaModelo)?.CategoriaID == id);
     }
 
     public IEnumerable<T> ObterTodos()
@@ -33,7 +37,7 @@ public class RepositorioCRUDGenericoColecoes<T>(List<T> repositorio) : IReposito
     public void Remover(T entidade)
     {
         if (!repositorio.Contains(entidade))
-            throw new Exception("Objeto inexistente");
+            throw new Exception("Objeto inexistente: a entidade não foi encontrada para remoção.");
         
         repositorio.Remove(entidade);
     }
