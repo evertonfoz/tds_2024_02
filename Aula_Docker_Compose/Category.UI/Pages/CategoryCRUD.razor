@@ -1,0 +1,94 @@
+﻿@page "/categories"
+@using BackendDotNet.Models.Models
+@using Category.UI.Services
+
+@inject CategoryAPIService CategoryAPIService
+@inject IJSRuntime JS
+
+<h3>Lista de Categorias</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in categories)
+        {
+            <tr>
+                <td>@category.Name</td>
+                <td>@category.Description</td>
+                <td>
+                    <button class="btn btn-primary" @onclick="() => EditCategory(category)">Editar</button>
+                    <button class="btn btn-danger" @onclick="() => DeleteCategory(category.CategoryEntityId)">Excluir</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>@(editMode ? "Editar Categoria" : "Nova Categoria")</h3>
+
+<div class="mb-3">
+    <label for="name" class="form-label">Nome</label>
+    <input type="text" class="form-control" @bind="category.Name" />
+</div>
+
+<div class="mb-3">
+    <label for="description" class="form-label">Descrição</label>
+    <textarea class="form-control" @bind="category.Description"></textarea>
+</div>
+
+<button class="btn btn-success" @onclick="SaveCategory">Salvar</button>
+
+@code {
+    private List<CategoryEntity> categories = new();
+    private CategoryEntity category = new CategoryEntity();
+    private bool editMode = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await CategoryAPIService.GetCategoriesAsync();
+    }
+
+    private void EditCategory(CategoryEntity categoryToEdit)
+    {
+        category = new CategoryEntity
+        {
+            CategoryEntityId = categoryToEdit.CategoryEntityId,
+            Name = categoryToEdit.Name,
+            Description = categoryToEdit.Description
+        };
+        editMode = true;
+    }
+
+    private async Task SaveCategory()
+    {
+        if (editMode)
+        {
+            await CategoryAPIService.UpdateCategoryAsync(category);
+        }
+        else
+        {
+            await CategoryAPIService.AddCategoryAsync(category);
+        }
+
+        categories = await CategoryAPIService.GetCategoriesAsync();
+        category = new CategoryEntity();
+        editMode = false;
+    }
+
+    private async Task DeleteCategory(int id)
+    {
+        bool isConfirmed = await JS.InvokeAsync<bool>("confirm", "Tem certeza que deseja excluir esta categoria?");
+        
+        if (isConfirmed)
+        {
+            await CategoryAPIService.DeleteCategoryAsync(id);
+            categories = await CategoryAPIService.GetCategoriesAsync();
+        }
+    }
+}

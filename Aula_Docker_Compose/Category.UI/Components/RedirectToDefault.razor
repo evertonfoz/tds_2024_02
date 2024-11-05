@@ -1,0 +1,9 @@
+﻿@code {
+    protected override void OnInitialized()
+    {
+        NavigationManager?.NavigateTo("/categories");
+    }
+
+    [Inject]
+    private NavigationManager? NavigationManager { get; set; }
+}
