@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import '../domain/category.dart';
 
 class CategoryDataSource {
-  final String baseUrl = 'http://10.0.0.145:5001/api/categories';
+  final String baseUrl = 'http://10.55.1.42:5001/api/categories';
 
   Future<List<Category>> getCategories() async {
     final response = await http.get(Uri.parse(baseUrl));

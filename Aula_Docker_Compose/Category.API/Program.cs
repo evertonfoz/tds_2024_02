@@ -8,7 +8,7 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins("http://localhost:5054", "http://10.0.0.145:5001/") // URL do frontend Blazor
+        builder.WithOrigins("http://localhost:5054", "http://10.55.1.42:5001/") // URL do frontend Blazor
                .AllowAnyHeader()
                .AllowAnyMethod();
     });
@@ -88,7 +88,8 @@ app.MapDelete("/api/categories/{id}", async (EFCoreContext context, int id) =>
 
 app.Run();
 
-// dotnet ef migrations add InitialMigration --project Persistence --startup-project Category.API
+// dotnet ef migrations add InitialMigration --project Persistence 
+//       --startup-project Category.API
 // dotnet ef database update --project Persistence --startup-project Category.API
 
 // ,

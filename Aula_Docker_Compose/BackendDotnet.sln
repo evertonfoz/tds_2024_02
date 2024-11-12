@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{3A018E1F-68A0-4D2D-B5CB-7D8F7DE570DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caregory.UI.Maui", "Caregory.UI.Maui\Caregory.UI.Maui.csproj", "{E76C254A-F5E7-44DB-94AD-A8A9431ACAB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,5 +36,9 @@ Global
 		{1100F2BE-AA62-49AB-900D-C5411D2E98D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1100F2BE-AA62-49AB-900D-C5411D2E98D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1100F2BE-AA62-49AB-900D-C5411D2E98D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76C254A-F5E7-44DB-94AD-A8A9431ACAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76C254A-F5E7-44DB-94AD-A8A9431ACAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76C254A-F5E7-44DB-94AD-A8A9431ACAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76C254A-F5E7-44DB-94AD-A8A9431ACAB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
